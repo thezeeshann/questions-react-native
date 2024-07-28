@@ -7,23 +7,15 @@ import Button from "./src/components/Button";
 
 export default function App() {
   const [selected, setIsSelected] = useState(false);
-  const [currentQuestionIndex,setCurrentQuestionIndex] = useState()
-  const [currentQuestion,setCurrentQuestion] = useState(questions.option[1])
 
-
-  useEffect(()=>{
-    if(currentQuestion>questions.question.length)
-    Alert.alert("You Wonn")
-      setCurrentQuestionIndex(0)
-  },[])
-
-  const onButtonPress = ()=>{
-    if(selected.correct){
-      Alert.alert("Correctttt")
-    }else{
-      Alert.alert("Wronggggggg")
+  const onButtonPress = () => {
+    if (selected.correct) {
+      Alert.alert("Correct ✅");
+      setIsSelected(null);
+    } else {
+      Alert.alert("Wrong ❌");
     }
-  }
+  };
 
   return (
     <View style={style.container}>
@@ -34,11 +26,11 @@ export default function App() {
             key={option.id}
             image={option.image}
             text={option.text}
-            isSelected={selected.id === option.id}
+            isSelected={selected?.id === option.id}
             onPress={() => setIsSelected(option)}
           />
         ))}
-        <Button  text="Check" disabled={!selected} onPress={onButtonPress} />
+        <Button text="Check" disabled={!selected} onPress={onButtonPress} />
       </View>
     </View>
   );

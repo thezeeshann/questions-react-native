@@ -4,26 +4,26 @@ export default questions = {
     {
       id: 1,
       image:
-        "https://image.shutterstock.com/image-photo/chocolate-milk-splash-on-clean-260nw-2330412211.jpg",
+        "https://img.freepik.com/premium-vector/hand-drawn-cartoon-cow-illustration_23-2150382690.jpg?w=740",
       text: "Milk",
     },
     {
       id: 2,
       image:
-        "https://img.freepik.com/free-photo/high-angle-shot-piece-butter-isolated-white-background_181624-25433.jpg?ga=GA1.1.1322309273.1722183815&semt=sph",
+        "https://img.freepik.com/free-vector/curl-butter-sticker-white-background_1308-64453.jpg?t=st=1722192856~exp=1722196456~hmac=3fa487a1940602e361906735b48dc31150664d43e1bfa11bfb8d275c370b48d3&w=740",
       text: "Butter",
-      correct:true
+      correct: true,
     },
     {
       id: 3,
       image:
-        "https://img.freepik.com/free-photo/delicious-piece-cheese_144627-43344.jpg?t=st=1722183868~exp=1722187468~hmac=a5d7e8dfa4672b03850dcffd3797b7e29d4d65a8c3c242bc32e70805b9308964&w=740",
+        "https://img.freepik.com/premium-vector/butter-cartoon-character-with-arms-legs-white-background_1023984-26010.jpg?w=740",
       text: "cheese",
     },
     {
       id: 4,
       image:
-        "https://img.freepik.com/free-photo/fresh-coffee-steams-wooden-table-close-up-generative-ai_188544-8923.jpg?t=st=1722183823~exp=1722187423~hmac=c8504cf4262c5e3d3ced6f22ce3578ad3aa3b90c310bbdf95d592c7f5172d9b9&w=740",
+        "https://img.freepik.com/premium-vector/groovy-retro-cartoon-jumping-coffee-go-with-eyes-gloved-hands-style-60s-70s_661330-406.jpg?w=740",
       text: "Coffe",
     },
   ],
