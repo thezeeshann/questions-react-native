@@ -1,4 +1,4 @@
-import { View, Image, Text, Pressable } from "react-native";
+import { Image, Text, Pressable } from "react-native";
 import { style } from "../../App.Style";
 import PropTypes from "prop-types"; // ES6
 

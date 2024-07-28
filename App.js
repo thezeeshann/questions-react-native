@@ -2,7 +2,7 @@ import { Text, View, Image, Alert } from "react-native";
 import { style } from "./App.Style";
 import { Option } from "./src/components/ImageOpton";
 import questions from "./data";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Button from "./src/components/Button";
 
 export default function App() {
